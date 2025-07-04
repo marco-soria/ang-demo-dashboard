@@ -11,10 +11,10 @@ import { Component, Input } from '@angular/core';
     </section>
   `,
 })
-export class HeavyLoadersFastComponent {
+export class HeavyLoadersFast {
   @Input({ required: true }) cssClass!: string;
 
   constructor() {
-    console.log('HeavyLoader Fast creado');
+    console.log('HeavyLoader Fast created');
   }
 }

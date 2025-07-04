@@ -11,13 +11,13 @@ import { Component, Input } from '@angular/core';
     </section>
   `,
 })
-export class HeavyLoadersSlowComponent {
+export class HeavyLoadersSlow {
   @Input({ required: true }) cssClass!: string;
 
   constructor() {
     const start = Date.now();
     while (Date.now() - start < 3000) {}
 
-    console.log('Cargado');
+    console.log('Loaded');
   }
 }

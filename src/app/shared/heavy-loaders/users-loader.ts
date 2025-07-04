@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   imports: [],
   template: ` <h1>Hello world</h1> `,
 })
-export class UsersLoaderComponent {
+export class UsersLoader {
   constructor() {}
 }
