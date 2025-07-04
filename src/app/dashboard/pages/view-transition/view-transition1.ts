@@ -23,4 +23,4 @@ import { Title } from '@shared/title/title';
     </section>
   `,
 })
-export default class ViewTransitionComponent {}
+export default class ViewTransition {}
