@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-user-loader',
   standalone: true,
   imports: [],
-  template: ` <h1>Hola Mundo</h1> `,
+  template: ` <h1>Hello world</h1> `,
 })
 export class UsersLoaderComponent {
   constructor() {}

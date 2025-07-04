@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-users',
   imports: [],
-  templateUrl: './users.html'
+  templateUrl: './users.html',
 })
-export class Users {
-
-}
+export default class Users {}
