@@ -29,16 +29,16 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./dashboard/pages/defer-views/defer-views'),
       },
-      {
-        path: 'user/:id',
-        title: 'User View',
-        loadComponent: () => import('./dashboard/pages/user/user'),
-      },
-      {
-        path: 'user-list',
-        title: 'User List',
-        loadComponent: () => import('./dashboard/pages/users/users'),
-      },
+      // {
+      //   path: 'user/:id',
+      //   title: 'User View',
+      //   loadComponent: () => import('./dashboard/pages/user/user'),
+      // },
+      // {
+      //   path: 'user-list',
+      //   title: 'User List',
+      //   loadComponent: () => import('./dashboard/pages/users/users'),
+      // },
       {
         path: 'view-transition-1',
         title: 'View Transition 1',
